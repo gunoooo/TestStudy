@@ -17,7 +17,6 @@
 		4EBABF7625C83C7A002C2522 /* TestStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF7525C83C7A002C2522 /* TestStudyUITests.swift */; };
 		4EBABF8725C83CE7002C2522 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF8625C83CE7002C2522 /* Restaurant.swift */; };
 		4EBABF8C25C83DEA002C2522 /* EmployeeDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF8B25C83DEA002C2522 /* EmployeeDummy.swift */; };
-		4EBABF9425C83E08002C2522 /* CookFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF9325C83E08002C2522 /* CookFake.swift */; };
 		4EBABF9925C83E59002C2522 /* CookStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF9825C83E59002C2522 /* CookStub.swift */; };
 		4EBABF9E25C83E6A002C2522 /* CookSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABF9D25C83E6A002C2522 /* CookSpy.swift */; };
 		4EBABFA325C83E77002C2522 /* CookMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABFA225C83E77002C2522 /* CookMock.swift */; };
@@ -25,6 +24,10 @@
 		4EBABFAD25C83F07002C2522 /* Chicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABFAC25C83F07002C2522 /* Chicken.swift */; };
 		4EBABFB225C83F0D002C2522 /* Soup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABFB125C83F0D002C2522 /* Soup.swift */; };
 		4EBABFD825C85348002C2522 /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBABFD725C85348002C2522 /* RestaurantTests.swift */; };
+		8F9D35EE25D0D09C00A292C1 /* RecordFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D35ED25D0D09C00A292C1 /* RecordFake.swift */; };
+		8F9D35F225D0D45600A292C1 /* Cook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D35F125D0D45600A292C1 /* Cook.swift */; };
+		8F9D35F425D0D47D00A292C1 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D35F325D0D47D00A292C1 /* Employee.swift */; };
+		8F9D35F625D0D49D00A292C1 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D35F525D0D49D00A292C1 /* Record.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +64,6 @@
 		4EBABF7725C83C7A002C2522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBABF8625C83CE7002C2522 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		4EBABF8B25C83DEA002C2522 /* EmployeeDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDummy.swift; sourceTree = "<group>"; };
-		4EBABF9325C83E08002C2522 /* CookFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookFake.swift; sourceTree = "<group>"; };
 		4EBABF9825C83E59002C2522 /* CookStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookStub.swift; sourceTree = "<group>"; };
 		4EBABF9D25C83E6A002C2522 /* CookSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookSpy.swift; sourceTree = "<group>"; };
 		4EBABFA225C83E77002C2522 /* CookMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookMock.swift; sourceTree = "<group>"; };
@@ -69,6 +71,10 @@
 		4EBABFAC25C83F07002C2522 /* Chicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken.swift; sourceTree = "<group>"; };
 		4EBABFB125C83F0D002C2522 /* Soup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soup.swift; sourceTree = "<group>"; };
 		4EBABFD725C85348002C2522 /* RestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTests.swift; sourceTree = "<group>"; };
+		8F9D35ED25D0D09C00A292C1 /* RecordFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordFake.swift; sourceTree = "<group>"; };
+		8F9D35F125D0D45600A292C1 /* Cook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cook.swift; sourceTree = "<group>"; };
+		8F9D35F325D0D47D00A292C1 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		8F9D35F525D0D49D00A292C1 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		4EBABF5225C83C75002C2522 /* TestStudy */ = {
 			isa = PBXGroup;
 			children = (
+				8F9D35EF25D0D43900A292C1 /* Models */,
 				4EBABF5325C83C75002C2522 /* AppDelegate.swift */,
 				4EBABF5525C83C75002C2522 /* SceneDelegate.swift */,
 				4EBABF5725C83C75002C2522 /* ViewController.swift */,
@@ -127,9 +134,9 @@
 				4EBABF5E25C83C79002C2522 /* LaunchScreen.storyboard */,
 				4EBABF6125C83C79002C2522 /* Info.plist */,
 				4EBABF8625C83CE7002C2522 /* Restaurant.swift */,
-				4EBABFA725C83EFF002C2522 /* Hamburger.swift */,
-				4EBABFAC25C83F07002C2522 /* Chicken.swift */,
-				4EBABFB125C83F0D002C2522 /* Soup.swift */,
+				8F9D35F125D0D45600A292C1 /* Cook.swift */,
+				8F9D35F325D0D47D00A292C1 /* Employee.swift */,
+				8F9D35F525D0D49D00A292C1 /* Record.swift */,
 			);
 			path = TestStudy;
 			sourceTree = "<group>";
@@ -140,7 +147,7 @@
 				4EBABF6A25C83C7A002C2522 /* TestStudyTests.swift */,
 				4EBABF6C25C83C7A002C2522 /* Info.plist */,
 				4EBABF8B25C83DEA002C2522 /* EmployeeDummy.swift */,
-				4EBABF9325C83E08002C2522 /* CookFake.swift */,
+				8F9D35ED25D0D09C00A292C1 /* RecordFake.swift */,
 				4EBABF9825C83E59002C2522 /* CookStub.swift */,
 				4EBABF9D25C83E6A002C2522 /* CookSpy.swift */,
 				4EBABFA225C83E77002C2522 /* CookMock.swift */,
@@ -156,6 +163,16 @@
 				4EBABF7725C83C7A002C2522 /* Info.plist */,
 			);
 			path = TestStudyUITests;
+			sourceTree = "<group>";
+		};
+		8F9D35EF25D0D43900A292C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EBABFA725C83EFF002C2522 /* Hamburger.swift */,
+				4EBABFAC25C83F07002C2522 /* Chicken.swift */,
+				4EBABFB125C83F0D002C2522 /* Soup.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBABF5825C83C75002C2522 /* ViewController.swift in Sources */,
+				8F9D35F425D0D47D00A292C1 /* Employee.swift in Sources */,
+				8F9D35F625D0D49D00A292C1 /* Record.swift in Sources */,
+				8F9D35F225D0D45600A292C1 /* Cook.swift in Sources */,
 				4EBABF8725C83CE7002C2522 /* Restaurant.swift in Sources */,
 				4EBABF5425C83C75002C2522 /* AppDelegate.swift in Sources */,
 				4EBABF5625C83C75002C2522 /* SceneDelegate.swift in Sources */,
@@ -303,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBABF9E25C83E6A002C2522 /* CookSpy.swift in Sources */,
-				4EBABF9425C83E08002C2522 /* CookFake.swift in Sources */,
+				8F9D35EE25D0D09C00A292C1 /* RecordFake.swift in Sources */,
 				4EBABF8C25C83DEA002C2522 /* EmployeeDummy.swift in Sources */,
 				4EBABF6B25C83C7A002C2522 /* TestStudyTests.swift in Sources */,
 				4EBABF9925C83E59002C2522 /* CookStub.swift in Sources */,
@@ -406,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -461,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -517,7 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 647NLFT7J5;
 				INFOPLIST_FILE = TestStudyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,7 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 647NLFT7J5;
 				INFOPLIST_FILE = TestStudyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

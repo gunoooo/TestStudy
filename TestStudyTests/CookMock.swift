@@ -22,7 +22,12 @@ class CookMock: CookProtocol {
     var chickenAllPrice = 0
     var soupAllPrice = 0
     
+    var cookHamburgerCalled = false
+    var cookChickenCalled = false
+    var cookSoupCalled = false
+    
     func cookHamburger(hamburger: Hamburger) -> Int {
+        cookHamburgerCalled = true
         hamburgerCount += 1
         let price = hamburger.price
         hamburgerAllPrice += price
@@ -30,6 +35,7 @@ class CookMock: CookProtocol {
     }
     
     func cookChicken(chicken: Chicken) -> Int {
+        cookChickenCalled = true
         chickenCount += 1
         let price = chicken.price
         chickenAllPrice += price
@@ -37,6 +43,7 @@ class CookMock: CookProtocol {
     }
     
     func cookSoup(soup: Soup) -> Int {
+        cookSoupCalled = true
         soupCount += 1
         let price = soup.price
         soupAllPrice += price
@@ -47,6 +54,7 @@ class CookMock: CookProtocol {
         count: Int,
         price: Int
     ) {
+        XCTAssertTrue(cookHamburgerCalled)
         XCTAssertEqual(hamburgerCount, count)
         XCTAssertEqual(hamburgerAllPrice, price)
     }
@@ -55,6 +63,7 @@ class CookMock: CookProtocol {
         count: Int,
         price: Int
     ) {
+        XCTAssertTrue(cookChickenCalled)
         XCTAssertEqual(chickenCount, count)
         XCTAssertEqual(chickenAllPrice, price)
     }
@@ -63,6 +72,7 @@ class CookMock: CookProtocol {
         count: Int,
         price: Int
     ) {
+        XCTAssertTrue(cookSoupCalled)
         XCTAssertEqual(soupCount, count)
         XCTAssertEqual(soupAllPrice, price)
     }
